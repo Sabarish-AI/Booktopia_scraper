@@ -1,4 +1,5 @@
-----> This scraper is specially built for the Booktopia website to scrape its contents.<br>
+<<<<<<<< PLEASE READ THIS COMPLETELY BEFORE RUNNING THE SCRIPT >>>>>>>><br>
+---> This scraper is specially built for the Booktopia website to scrape its contents.<br>
 ----> It is developed in python along with the pychrome library.<br>
 ----> The booktopia website consists of the PerimeterX bot defender which prevents the scraping activities on the website.<br>
 ----> It is very important to bypass this PerimeterX bot defender to gain access to the website's contents.<br>
@@ -9,8 +10,9 @@
 ----> We have to manually solve this captch once to whitelist our browser profile and our IP.<br>
 ----> After solving this captcha once we won't be prompted with a captcha thereafter as our browser profile and IP has been whitelisted by PerimeterX.<br>
 ----> I have also not used any requests, as it may trigger the bot defender.<br>
-----> I have directly extracted the page source usingtab.Runtime.evaluate(expression="""window.document.body.innerHTML""").<br>
+----> I have directly extracted the page source using tab.Runtime.evaluate(expression="""window.document.body.innerHTML""").<br>
 ----> Each run saves it in our local as offline.html.<br>
 ----> Once the html page source is saved offline in local, we are good to perform the scraping.<br>
 ----> I have also added click operations to navigate between the different book types.<br>
+----> I have taken 20 random inputs here for testing.<br>
 ----> The results are stored in the results.csv
