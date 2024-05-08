@@ -6,9 +6,9 @@
 ----> I have used an approach here where a chrome profile is created and launched using the pychrome library.<br>
 ----> The reason I have created a browser profile in chrome and launched is that the PerimeterX bot defender considers
       this to be a real user and whitelists the browser profile and ip address.<br>
-----> On the initial run, we'll be prompted with a PerimeterX captch of press and hold to authenticate if it is a real user.<br>
+----> On the initial run, we'll be prompted with a PerimeterX captcha of press and hold to authenticate if it is a real user.<br>
 ----> We have to manually solve this captch once to whitelist our browser profile and our IP.<br>
-----> After solving this captcha once we won't be prompted with a captcha thereafter as our browser profile and IP has been whitelisted by PerimeterX.<br>
+----> After solving this captcha once, we won't be prompted with a captcha thereafter as our browser profile and IP has been whitelisted by PerimeterX.<br>
 ----> I have also not used any requests, as it may trigger the bot defender.<br>
 ----> I have directly extracted the page source using tab.Runtime.evaluate(expression="""window.document.body.innerHTML""").<br>
 ----> Each run saves it in our local as offline.html.<br>
