@@ -1,4 +1,4 @@
-----> This scraper is specially built for the Booktopia website to scrape its contents.
+----> This scraper is specially built for the Booktopia website to scrape its contents.<br>
 ----> It is developed in python along with the pychrome library.
 ----> The booktopia website consists of the PerimeterX bot defender which prevents the scraping activities on the website.
 ----> It is very important to bypass this PerimeterX bot defender to gain access to the website's contents.
